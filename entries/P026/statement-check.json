@@ -1,0 +1,10 @@
+{
+  "entry": "P026",
+  "source_sha256": "9470360f380bdfd6899e807087d3cb6a3f92e7e135446ced75b787c01b19c245",
+  "source_unchanged": true,
+  "exit_code": 0,
+  "status": "PASS",
+  "kind": "STATEMENT_COMPILATION_ONLY_NOT_PROOF_VERIFICATION",
+  "toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "mathlib_manifest_sha256": "55fc50a5113a34e1c25ea37ebf7e9b4348e034659e1398662052237fbb351c81"
+}

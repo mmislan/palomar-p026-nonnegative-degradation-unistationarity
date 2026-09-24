@@ -1,0 +1,12 @@
+{
+  "challenge_module": "Registry.P026.Challenge",
+  "solution_module": "Registry.P026.Solution",
+  "theorem_names": [
+    "MixedDegradation.paper_mixed_degradation_unistationarity"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ]
+}

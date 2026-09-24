@@ -1,0 +1,203 @@
+{
+  "paper_id": "P026",
+  "status": "MAPPED",
+  "formal_claims": [
+    {
+      "declaration": "MixedDegradation.boundary_uniqueness_of_nondegenerate",
+      "module": "proofs.MixedDegradation.BoundaryUniqueness",
+      "source": "proofs/MixedDegradation/BoundaryUniqueness.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/106e0ee72439bbb9c0ac.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.Coincident.all_zero_unistationarity",
+      "module": "proofs.MixedDegradation.Coincident",
+      "source": "proofs/MixedDegradation/Coincident.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/459dfe1965768711edbb.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.paper_mixed_degradation_unistationarity",
+      "module": "proofs.MixedDegradation.Main",
+      "source": "proofs/MixedDegradation/Main.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/d23fbd12c0850234df0a.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS",
+      "source_role": "defining_module",
+      "publication_entry_points": [
+        {
+          "module": "proofs.MixedDegradation.Main",
+          "source": "proofs/MixedDegradation/Main.lean",
+          "evidence": "migration/historical-receipts/d23fbd12c0850234df0a.json",
+          "historical_source_closure_matches": true
+        },
+        {
+          "module": "proofs.MixedDegradation.Publication",
+          "source": "proofs/MixedDegradation/Publication.lean",
+          "evidence": "migration/historical-receipts/462737e0b6d745a3151d.json",
+          "historical_source_closure_matches": true
+        }
+      ]
+    },
+    {
+      "declaration": "MixedDegradation.chain_flux_compress",
+      "module": "proofs.MixedDegradation.PassiveChain",
+      "source": "proofs/MixedDegradation/PassiveChain.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/d1005cfb38ca10d2d5a9.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.chain_state_unique",
+      "module": "proofs.MixedDegradation.PassiveChain",
+      "source": "proofs/MixedDegradation/PassiveChain.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/d1005cfb38ca10d2d5a9.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.TypeV.tangentMatrix_nonsingular",
+      "module": "proofs.MixedDegradation.Publication",
+      "source": "proofs/MixedDegradation/Publication.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/462737e0b6d745a3151d.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.stationary_signed_determinant",
+      "module": "proofs.MixedDegradation.StationaryJacobian",
+      "source": "proofs/MixedDegradation/StationaryJacobian.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/a17196208734f0e00b24.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.TypeV.tangent_kernel_zero",
+      "module": "proofs.MixedDegradation.TypeVDerivative",
+      "source": "proofs/MixedDegradation/TypeVDerivative.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/fc3164c56644f5689752.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.TypeV.reduced_unistationarity",
+      "module": "proofs.MixedDegradation.TypeVReduced",
+      "source": "proofs/MixedDegradation/TypeVReduced.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/adcc6c3c6d3da4e8bb96.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "MixedDegradation.TypeV.paper_type_v_unistationarity",
+      "module": "proofs.MixedDegradation.TypeVSource",
+      "source": "proofs/MixedDegradation/TypeVSource.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/194d03799a3c48091b9e.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    },
+    {
+      "declaration": "TypeIIL.PaperWeakStemSpecies.source_exhaustion_of_minimal",
+      "module": "proofs.TypeIIL.PaperSourceExhaustion",
+      "source": "proofs/TypeIIL/PaperSourceExhaustion.lean",
+      "status": "FORMAL_VERIFIED_DESTINATION",
+      "evidence": "migration/historical-receipts/19ebebe3267a739ecc7d.json",
+      "historical_axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "historical_source_closure_matches": true,
+      "hypotheses": "Exact elaborated type in the linked historical evidence; source theorem retains all original binders.",
+      "correspondence": "Identifier occurs in the preserved publication manuscript or source map. Consult that table for the numbered statement and conventional steps.",
+      "destination_verification": "PASS"
+    }
+  ],
+  "source_maps": [
+    "papers/P026-nonnegative-degradation/evidence/source-maps/00-BUILD.md",
+    "papers/P026-nonnegative-degradation/evidence/source-maps/02-PUBLICATION_HANDOFF.md"
+  ],
+  "manuscript_formal_scope": "See the preserved manuscript verification section and claim tables. Claims absent from formal_claims are not asserted to be unformalized; their mapping may remain incomplete.",
+  "destination_verification": "PASS"
+}

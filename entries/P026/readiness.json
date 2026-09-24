@@ -1,0 +1,21 @@
+{
+  "paper": "P026",
+  "problems": [
+    12
+  ],
+  "historical_verification": "PASS",
+  "challenge": "COMPILES_TARGET_STATEMENT_ONLY",
+  "solution": "DRAFT_NOT_VERIFIED",
+  "target_compilation": "NOT_RUN",
+  "comparator": "NOT_RUN",
+  "independent_kernels": "NOT_RUN",
+  "statement_fidelity": "SOURCE_READ_AGENT_REVIEWED_VERIFICATION_PENDING",
+  "metadata_review": "AGENT_PREPARED",
+  "scope_gap": false,
+  "publication": "NOT_AUTHORIZED",
+  "submission": "NOT_AUTHORIZED",
+  "selected_declarations": [
+    "MixedDegradation.paper_mixed_degradation_unistationarity"
+  ],
+  "claim_evidence": "entries/P026/CLAIM-EVIDENCE.md"
+}

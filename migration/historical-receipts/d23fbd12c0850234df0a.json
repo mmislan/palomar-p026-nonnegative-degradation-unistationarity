@@ -1,0 +1,381 @@
+{
+  "receipt": "problem_workspaces/RAF_mixed_degradation_TypeIIL_V_unistationarity/verification/main.verify.json",
+  "receipt_sha256": "d23fbd12c0850234df0a13591fe3e04133dfc0aac10edd37832a8953d3f1246d",
+  "proof": "proofs/MixedDegradation/Main.lean",
+  "proof_sha256": "2a52e6321aa30268cd49460f421dee9df1055b3fd4c405b002206e93eee3a7e7",
+  "lean_toolchain": "leanprover/lean4:v4.30.0",
+  "lake_manifest_sha256": "a8df0b606ec258561c226df89856884be433c19b49fb0a27335d69bb2b6e9fac",
+  "duration_seconds": 132.609,
+  "warning_as_error": true,
+  "dependency_sources": [
+    {
+      "source": "proofs/TypeIIL/LogarithmicSecant.lean",
+      "sha256": "4c239ee85fe9d304af157a78d66495948ffe94bb03f90813ddd24d4e882da6b2"
+    },
+    {
+      "source": "proofs/TypeIIL/LogarithmicSecantMatrix.lean",
+      "sha256": "3c20cc47f9bb77505ef617d3128b45c2e0ef928395577115e5305732db8b579e"
+    },
+    {
+      "source": "proofs/TypeIIL/CurrentSecantKernel.lean",
+      "sha256": "650f1df1e7c0b3883999eabbc995b91c147ef4b487a64072a709370500e893a6"
+    },
+    {
+      "source": "proofs/TypeIIL/GenericCurrentSecantKernel.lean",
+      "sha256": "1bdade88aa71cc91ae5d4cc2d6a040016b2899a4ef90872275d9a3f848c40209"
+    },
+    {
+      "source": "proofs/TypeII3/Algebra/PowSecant.lean",
+      "sha256": "c59c482055c6ad619a2ecbd6dd7016cb80afc1282f126d800c86fa4d3738422a"
+    },
+    {
+      "source": "proofs/TypeIIL/OrderedMonomialSecant.lean",
+      "sha256": "f919158561da37f4973ca41355d5628061302eff9e82681c8aaa12847b38e452"
+    },
+    {
+      "source": "proofs/TypeIIL/OrderedMonomialSecantMatrix.lean",
+      "sha256": "95de27c4ef76c09964b0e1443cf3f28474befd5fafd2fd1d4b01d919341cb031"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceOrderedProduct.lean",
+      "sha256": "539d17dfd88dadfec746bc00679f8cb453d6490ba49570aed0b57147cb421552"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCurrentResidual.lean",
+      "sha256": "0927ad45506a13320616ebacd3507eeee4e4fc1400a2f2060dc6ffd2c71f6f60"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCurrentMatrix.lean",
+      "sha256": "3573592ebb338ce9d7f58363620ae15a17cd0693f419ff93bcad20b8916674c6"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceBackFirstSecant.lean",
+      "sha256": "aabd6322cce4ec91b17e1cc21e0a120ba8fb42e217aeff9b3663c6772836decf"
+    },
+    {
+      "source": "proofs/TypeIIL/SourcePathSupersolution.lean",
+      "sha256": "069e4e5822b946e392a2f1dbce10de5e8a6f0b7c212bd988c7cac7d71c55ca5e"
+    },
+    {
+      "source": "proofs/TypeIIL/MMatrixGreen.lean",
+      "sha256": "4cb2d3cd5179fde7f71351ebc5a49ff2effd813b969061e941b645ca64d4c950"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCorrectionBlock.lean",
+      "sha256": "b7976421d38a5992002e8d7fb67fb6d5e90f9510f349d5edfb1c87e85a150dd4"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceFinitePath.lean",
+      "sha256": "5dcc403caa891339983a10387559717814b08a61236d185ab234296df75ec6cc"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceGapAdapter.lean",
+      "sha256": "872f1fc372d487f55b1a7b3469c78d113142820c62c62234ba6a24f838e6db11"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceForkGapAdapter.lean",
+      "sha256": "5d1324b60827a086627653a04da99ad9b3b841a9a9669496fa3b972e16cb1266"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceBackFirstPreGap.lean",
+      "sha256": "2be1255041b56483ebbb834d7eb0f9ae73b2d29f8a3a8bbb69f024ffcf385148"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceGapResponseExistence.lean",
+      "sha256": "71d1bd7afd9d40f5c606d68e1b3ce85c575e36529c66a8b5c3e5e7ec523fe5b6"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceGapBudget.lean",
+      "sha256": "9360341891681418d1db8829975dba74cb967e34d9570d51ab54beeab55dcec2"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapCondensation.lean",
+      "sha256": "d4e064a207a764c75d50c230cf2ac561c37985d8878f43d281d3ccb051a3ebf1"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapTwoNode.lean",
+      "sha256": "608a95f428be782cc016e965bfb9033dc9cd54bc1e626cb17e8c1ed4fc8cfc65"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapGapAdapter.lean",
+      "sha256": "8b9955441d6f3863b23cdf7b55b41f850d8654f55c8b78f52e6b9715021aa00f"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapNatInduction.lean",
+      "sha256": "64bfdf0c9b187ead260d4128d351f7c0e1c1f9ac90df6ee3d092ce10f9c4ba68"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapFiniteInduction.lean",
+      "sha256": "4f7f3959e53e18288416e544a7e6e0f87357636fc8dd131cf704976171b1df23"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapCoupledMargin.lean",
+      "sha256": "a1381ea6747b055cbc3b25642577023c7b4d19972f164d60709def347e58d582"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapEndpointBudget.lean",
+      "sha256": "3a9d518c315182c57bf2ded182f6d24ae6a777bb189ba0001288c00f8d3a1b6b"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapFiniteMargin.lean",
+      "sha256": "bf2e9302ee1b62630b098fac81baeac9aebb4ffbc12471673bf4326c8ad31bd0"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapLiteralResponse.lean",
+      "sha256": "b91246d9c2bc6562d74d358e603d3962f4fedd881ec444be44bfbc97f4739438"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapResponseExistence.lean",
+      "sha256": "9aeb90b3abcc76574591c261c53bfa7656ed1cddc0a691ce32f1495833c6f71a"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapLiteralColumns.lean",
+      "sha256": "ae2b6f637c41f014fc041ef52a8898c9091b3249abee98729c28fb04cf24e52e"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapKernelElimination.lean",
+      "sha256": "fc516b42b75350c63a48e5afe7dd002d317df45ea4981233bc1bb5be4667a809"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceGlobalRowSplit.lean",
+      "sha256": "4947ad148ef05f6823571295232498034543e071ad8c561945a61a2111dbf35a"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCyclicGapSystem.lean",
+      "sha256": "becf038132f57cd696745c963c9761d5a9ef80cc941e246c9d904886beb6b3d9"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCyclicPartition.lean",
+      "sha256": "c96e79b37b3dc89c295a93dbf255babd3af854d8b28a17dd5088d8247470b970"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceForkRowAssembly.lean",
+      "sha256": "bbb5e08920ab9b78e5a878491af5cdbcc2e1c50b36ae21bb703ad27a2f41f32f"
+    },
+    {
+      "source": "proofs/TypeIIL/PaperCurrentTransport.lean",
+      "sha256": "8aa491f5611cffc2e252e1f9fff931b951af212a213b8c090ce0714bf79426bf"
+    },
+    {
+      "source": "proofs/TypeII3/Network/TwoRootKernel.lean",
+      "sha256": "1fd97ca3beaa34d3fac4e8465daf3dadcc2c526699fcc23927fda2984e15006f"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceBaseCurrentTransport.lean",
+      "sha256": "54487059d60c4b9d420b11af0f407671aca66b2ab14c4db7c0208d9fa707c14b"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceBackFirstResidual.lean",
+      "sha256": "7487b07ad6365042c483b6c47d5b19354845d90dbe3ae911a5dbf0da322fe6c6"
+    },
+    {
+      "source": "proofs/TypeIIL/CyclicClosureBound.lean",
+      "sha256": "914567e02daecba4fdcc3114ad2535b79db5a7621c41c2c388b5943734709456"
+    },
+    {
+      "source": "proofs/TypeIIL/CyclicCombinedCone.lean",
+      "sha256": "aa6f350e9c5fa5010e142ffe5816ca4fe142520919b76575bcf7fb43cf42a31b"
+    },
+    {
+      "source": "proofs/TypeIIL/OrderedCurrentSecantKernel.lean",
+      "sha256": "68fac775214e59cf9730a71bda35dc750f2a3b07483dc53a1826b13a4f08ed40"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCyclicRawClosure.lean",
+      "sha256": "78521ba6b71b5c5ec42b826a57ced666e5b5a8ea81a10bcf06836806a752f4b2"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCyclicKernelClosure.lean",
+      "sha256": "20a3e366022f4b95df9d17182eb0d496bc61a2b2f0a80d0a6239dfc6aeab5a76"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCyclicRowAssembly.lean",
+      "sha256": "1f4d9c974fc39472c488b161517cf55523277af2d0c856431a448795ab76a95c"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapRightDiagonal.lean",
+      "sha256": "ea88b259e653dff13a8a883f3d8a8838f876fc1077226c4460612c2317646cf8"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapPrecedingBudget.lean",
+      "sha256": "d4d0fcbe773c0c81ae3eb2265935814e1ed7755995674d4b0449044f148f10bd"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapFollowingBudget.lean",
+      "sha256": "7e69a0d78641d987616a6252c5c242b1afc217d49254da498a5a57c07d9d93c9"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceForkSchurResponse.lean",
+      "sha256": "aa0047906d538ce4079614a75e86a882387b7a995910db272c9e3a23042fd440"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceForkSchurDiagonal.lean",
+      "sha256": "d03f7729b7b8db1196be85de73ace17ca17fee21ce749be2867f269112483b6b"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceWrapLiteralSchurMargin.lean",
+      "sha256": "016be954010310d527be46fa76aa7ad16dcf54acb123feeb70512af6dd1eb48f"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceForkSchurMargin.lean",
+      "sha256": "380d34deea290d1785561a9582324e8858bfaee3da3ca369e0ee82567d61b225"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceCyclicCombinedCone.lean",
+      "sha256": "feeb1bf19f62479595bdfc7c98b52f6e096444cedcbe00824a9bc6db0c64cbd2"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceBackFirstCone.lean",
+      "sha256": "8d13455e42df93741c9f928b97e7dee5409719a348788fca51e139b6c7896fad"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceBackFirstClosure.lean",
+      "sha256": "1c332c308a4b4893023e474e93321b57a7109070ca96a5bf9809415d1d4e09cb"
+    },
+    {
+      "source": "problem_workspaces/RAF_full_type_II_l_closure/SingletonSpliceScratch.lean",
+      "sha256": "66acc4f98ef6966e74ec3ca3a8eee004ab86b44f8515d4dae64e5253ff39b349"
+    },
+    {
+      "source": "proofs/TypeIIL/SourceBackFirstWeakClosure.lean",
+      "sha256": "9a4b56141b804109b9cfa8ece51cc7a29b60991c4d8d74f19662aa37c5f62486"
+    },
+    {
+      "source": "proofs/TypeIIL/PaperMassActionAdapter.lean",
+      "sha256": "7471b93e9669f544522661d195fd07ab83a11e79205bca367f7e2c31ffceeca9"
+    },
+    {
+      "source": "proofs/TypeII3/Network/WeightedCounterexample.lean",
+      "sha256": "09e69aa999e2558ad032b5917810d1f7612191f794f45388e8294b9142049771"
+    },
+    {
+      "source": "proofs/TypeII3/Network/SourceMembership.lean",
+      "sha256": "2001346e36cbfcd564f4953e5046d2479ab5aa3bc4b83507aef9d5af5ffdacc8"
+    },
+    {
+      "source": "proofs/TypeIIL/PaperTailMinimality.lean",
+      "sha256": "4aa8acb421448c3badc7f7fd357d2624aceb7820dad0fea119079dcad1e71f3e"
+    },
+    {
+      "source": "proofs/TypeII3/Network/Canonical.lean",
+      "sha256": "4aabab287d46994ee5338975fc7c1b83673a3e58099e731a4bec457aea276fcb"
+    },
+    {
+      "source": "proofs/TypeII3/Network/ChainCompression.lean",
+      "sha256": "bc838c74ca7656e7cecf9e32d29175c4ee4ba08e26199b7746afd3481199bf58"
+    },
+    {
+      "source": "proofs/TypeIIL/PaperTailContraction.lean",
+      "sha256": "f9f848be7c61a7b49fdebf0e43558376b75dbd46a3bad13bc0c514851dbec364"
+    },
+    {
+      "source": "proofs/TypeIIL/PaperFullClosure.lean",
+      "sha256": "e34955abe3a7d03e3f1fb406edfecb439060f6d984f871b905ef833c0ba71c51"
+    },
+    {
+      "source": "proofs/TypeII3/Network/QuotientAllZero.lean",
+      "sha256": "618fb8e0ca682b0d15ef479c72efca762d03eee5c6960b9da54ce42704c2d362"
+    },
+    {
+      "source": "proofs/TypeIIL/PaperSourceLift.lean",
+      "sha256": "805301d8df77f0bbdaee33a9ef97f750fcf645c6c1322966e7fd1bcef9495335"
+    },
+    {
+      "source": "proofs/TypeIIL/PaperSourceExhaustion.lean",
+      "sha256": "49826a323ded556acc518c3c67e23fda4058150745c33c77d062bc8befb48c68"
+    },
+    {
+      "source": "proofs/MixedDegradation/TypeIIInterior.lean",
+      "sha256": "f27ff51307b11a4366eb5e6c71885aac79533d38dbcdeb8b9f90540614672575"
+    },
+    {
+      "source": "proofs/MixedDegradation/StationaryJacobian.lean",
+      "sha256": "6f2e0177ed8f0157b94722da1b2784dd79acaa8afd90b934cfdab53849c9bdbc"
+    },
+    {
+      "source": "proofs/MixedDegradation/CurrentJacobian.lean",
+      "sha256": "836ece02ec78482e2ade2ec8df3374171c5866fbb0053f4a6c453980e6260ae3"
+    },
+    {
+      "source": "proofs/MixedDegradation/SourceSecantDerivative.lean",
+      "sha256": "60974a840cebd2bb2f44f04a206248a17001b52b665b5649c205fea9d4d0faad"
+    },
+    {
+      "source": "proofs/MixedDegradation/SourceJacobian.lean",
+      "sha256": "b97ba6322069b067f71c3864cc2b6833ee1735ec49f8fefb7963af6d83953e49"
+    },
+    {
+      "source": "proofs/MixedDegradation/SourceInvertible.lean",
+      "sha256": "07fea73a6123acdb8b0b7d341da7eb9cfe0a7617272640837a078e69ca81c7c4"
+    },
+    {
+      "source": "proofs/MixedDegradation/DiagonalBoundary.lean",
+      "sha256": "aaba5043e4d3a6077d7768ca756f93c8f31598103a20389d54b4715045014018"
+    },
+    {
+      "source": "proofs/MixedDegradation/InteriorBoundary.lean",
+      "sha256": "5b128cd529a6b997b056fe37ead7ec6e10b5bc41dc44853d8a19b126b9e398d0"
+    },
+    {
+      "source": "proofs/MixedDegradation/StationaryBoundary.lean",
+      "sha256": "0161787df61636a8bea7e47e3cb87c1bd481eec00c867e048a4298b65ebba43b"
+    },
+    {
+      "source": "proofs/MixedDegradation/SourceBoundary.lean",
+      "sha256": "7426876c10942d4cb6a5aae5b0454e9a7b7aa566fb867bac863d5f2a07a22331"
+    },
+    {
+      "source": "proofs/MixedDegradation/BoundaryUniqueness.lean",
+      "sha256": "529b7c668c45eab623387b604ccf5400c58154a5755ce2e14b8cf799a8c19cc5"
+    },
+    {
+      "source": "proofs/MixedDegradation/LogDrift.lean",
+      "sha256": "eead2a7e496f9f6efd077693292253b29eb30a5e250cc83d6fc8c19578800918"
+    },
+    {
+      "source": "proofs/MixedDegradation/TypeIISkeleton.lean",
+      "sha256": "12af8ebe23a6adad47f117faf534e275a106374a07fbd63067c776ce0b1b7bd6"
+    },
+    {
+      "source": "proofs/MixedDegradation/PassiveChain.lean",
+      "sha256": "605d928a90e8773f0cb5d4f4bcf971439038145fe2364f5913e22ee4125acf75"
+    },
+    {
+      "source": "proofs/MixedDegradation/TypeIILift.lean",
+      "sha256": "793edd4bba1c6a410fff0b60a23bf85f16df8999ae206b38440b62de1cae023b"
+    },
+    {
+      "source": "proofs/MixedDegradation/Coincident.lean",
+      "sha256": "2fff91a66cc4dd0c98485de821294d067ebbd754f99e925f1513e4d430054cbd"
+    },
+    {
+      "source": "proofs/MixedDegradation/TypeIISource.lean",
+      "sha256": "bb98ad6f27b8ba72fab49d95ab06e63369aa6f6b83c01a5a6166e31692fd6100"
+    },
+    {
+      "source": "proofs/MixedDegradation/TypeVReduced.lean",
+      "sha256": "3da21ec60a1c75a761dce643355eb95de6856be3153424664f83fba98ee93b9f"
+    },
+    {
+      "source": "proofs/MixedDegradation/TypeVSource.lean",
+      "sha256": "da034063d818953a385043a985f6878319d5270b08b91879a664a773cbd75741"
+    }
+  ],
+  "dependency_mismatches": [],
+  "record_kind": "EXTRACT_OF_HISTORICAL_RECEIPT",
+  "extraction_note": "Original receipt remains in the source repository at receipt; receipt_sha256 identifies its complete unchanged bytes. This extract omits proof-term serialization, absolute artifact paths, and private diagnostics. It is not a new verification.",
+  "interfaces": [
+    {
+      "declaration_name": "MixedDegradation.paper_mixed_degradation_unistationarity",
+      "elaborated_type": "And\n(∀ (l : Nat) (Q : MixedDegradation.TypeII.PaperRaw.OpenNetwork l),\n@MixedDegradation.TypeII.PaperRaw.IsPaperTypeIILCore l Q →\n@LE.le.{0} Nat instLENat (@OfNat.ofNat.{0} Nat (nat_lit 3) (instOfNatNat (nat_lit 3))) l →\n∀ (x y : @MixedDegradation.TypeII.PaperRaw.OpenNetwork.State l Q),\n@MixedDegradation.TypeII.PaperRaw.OpenNetwork.PositiveState l Q x →\n@MixedDegradation.TypeII.PaperRaw.OpenNetwork.PositiveState l Q y →\n@MixedDegradation.TypeII.PaperRaw.OpenNetwork.Stationary l Q x →\n@MixedDegradation.TypeII.PaperRaw.OpenNetwork.Stationary l Q y →\n@Eq.{1} (@MixedDegradation.TypeII.PaperRaw.OpenNetwork.State l Q) x y)\n(∀ (N : MixedDegradation.TypeV.Network) (x y : MixedDegradation.TypeV.State N),\nMixedDegradation.TypeV.PositiveState N x →\nMixedDegradation.TypeV.PositiveState N y →\nMixedDegradation.TypeV.Stationary N x →\nMixedDegradation.TypeV.Stationary N y → @Eq.{1} (MixedDegradation.TypeV.State N) x y)",
+      "declaration_type_fingerprint": "sha256:90dc869ae55cb7a3319c015897ef5108667502803c00d00067b95bf5efa896de",
+      "axioms": [
+        "Classical.choice",
+        "Quot.sound",
+        "propext"
+      ],
+      "axiom_report": "'MixedDegradation.paper_mixed_degradation_unistationarity' depends on axioms: [propext, Classical.choice, Quot.sound]",
+      "interface_source": "lean_elaborator_probe_v4"
+    }
+  ]
+}
