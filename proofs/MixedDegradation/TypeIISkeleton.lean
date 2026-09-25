@@ -17,8 +17,9 @@ theorem exp_product_exponent {n : ℕ} (P : Fin n → Fin n → ℕ)
     (z : Fin n → ℝ) (r : Fin n) :
     Real.exp ((Matrix.transpose (fun i r => (P i r : ℝ))).mulVec z r) =
       paperSourceProductMonomial P r (fun i => Real.exp (z i)) := by
-  simp only [Matrix.mulVec, dotProduct, Matrix.transpose_apply,
-    Real.exp_sum, Real.exp_nat_mul, paperSourceProductMonomial]
+  show Real.exp (∑ i, (P i r : ℝ) * z i) =
+    paperSourceProductMonomial P r (fun i => Real.exp (z i))
+  simp only [Real.exp_sum, Real.exp_nat_mul, paperSourceProductMonomial]
 
 theorem logDrift_eq_massAction {n : ℕ} (N : Matrix (Fin n) (Fin n) ℝ)
     (P : Fin n → Fin n → ℕ) (a b d z : Fin n → ℝ) (ε : ℝ) :

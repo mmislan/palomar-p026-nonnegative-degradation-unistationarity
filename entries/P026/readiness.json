@@ -17,5 +17,11 @@
   "selected_declarations": [
     "MixedDegradation.paper_mixed_degradation_unistationarity"
   ],
-  "claim_evidence": "entries/P026/CLAIM-EVIDENCE.md"
+  "claim_evidence": "entries/P026/CLAIM-EVIDENCE.md",
+  "target_repairs": "PREPARED_NOT_COMPILED",
+  "target_repair_records": [
+    "preparation/repairs/2026-09-25/MECHANICAL.json",
+    "preparation/repairs/2026-09-25/G6.json"
+  ],
+  "previous_target_run": "FAILED (preparation/verification/remaining-submit-ready)"
 }

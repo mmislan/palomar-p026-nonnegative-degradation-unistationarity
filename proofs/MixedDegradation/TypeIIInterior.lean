@@ -19,7 +19,7 @@ theorem typeII_interior_current_kernel_nonsingular
       weight ((S.gap a).idx (Fin.last (S.gapLength a))) = 1)
     (hbase : TypeII3.BaseFluxBalance (sourceStoich next weight back) p q e) :
     (S.backFirstCurrentMatrix weight p q e rho).det ≠ 0 := by
-  letI : NeZero l := ⟨by omega⟩
+  let : NeZero l := ⟨by omega⟩
   obtain ⟨xf, yw, hxf, hyw⟩ := S.exists_actual_fork_column_responses
     weight p q e rho (fun r => (hp r).le) (fun r => (hq r).le) he hrho hw
   let seam : Fin l := ⟨0, by omega⟩

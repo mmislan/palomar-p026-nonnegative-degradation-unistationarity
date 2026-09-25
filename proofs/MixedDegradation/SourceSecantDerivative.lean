@@ -14,6 +14,8 @@ theorem source_secant_at_one {n : ℕ}
     sourceBackFirstSecantMatrix next weight back (fun _ => 1) =
       Matrix.transpose (fun i r => (sourceProductExponent next weight back i r : ℝ)) := by
   ext r i
+  show sourceBackFirstSecantMatrix next weight back (fun _ => 1) r i =
+    ((sourceProductExponent next weight back i r : ℕ) : ℝ)
   cases hr : back r with
   | none =>
     simp [sourceBackFirstSecantMatrix, sourceProductExponent, hr, secantPoly_one_one]

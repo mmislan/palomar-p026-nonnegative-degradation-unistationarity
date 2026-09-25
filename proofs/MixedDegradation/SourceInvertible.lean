@@ -42,7 +42,7 @@ theorem typeII_source_stoich_nonsingular
         have hv := congrArg Fin.val h
         simp at hv
         omega
-      rw [if_neg hne] at hg
+      rw [ite_eq_right hne] at hg
       dsimp [s, J]
       rw [S.gapIncomingReaction_succ]
       simp only [Pi.zero_apply, sub_zero, add_zero] at hg
@@ -54,7 +54,7 @@ theorem typeII_source_stoich_nonsingular
         exact hunit a
       have hf := S.base_fork_current_balance weight x 0 0 hb (S.step a) hu
       rw [S.step.symm_apply_apply] at hf
-      simp only [Pi.zero_apply, sub_zero, if_true] at hg hf
+      simp only [Pi.zero_apply, sub_zero, ite_true] at hg hf
       have hp : s (Fin.last (S.gapLength a)) * J (Fin.last (S.gapLength a)) = 0 := by
         dsimp [s, J]
         linarith

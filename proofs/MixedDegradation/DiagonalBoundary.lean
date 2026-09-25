@@ -86,7 +86,14 @@ theorem det_pos_of_nonnegative_diagonal_shifts
     apply hnonneg
     intro i
     split_ifs <;> first | exact ha i | exact hb i
-  · simpa [columnVertexMatrix] using hbdet
+  · have hv0 : columnVertexMatrix (A + Matrix.diagonal b)
+        (A + Matrix.diagonal a) ∅ = A + Matrix.diagonal b := by
+      funext i j
+      simp [columnVertexMatrix]
+    show 0 < (columnVertexMatrix (A + Matrix.diagonal b)
+      (A + Matrix.diagonal a) ∅).det
+    rw [hv0]
+    exact hbdet
 
 open Filter Set
 open scoped Topology
