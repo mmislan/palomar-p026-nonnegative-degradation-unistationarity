@@ -167,10 +167,10 @@ theorem paper_typeII_l_unistationarity
     apply MixedDegradation.TypeII.separated_unistationarity Q.separated.source
       hl Q.separated.weight Q.separated.weight_pos Q.separated.rates
       (return_minimal_of_core hcore hsep)
-    · simpa [OpenNetwork.PositiveState, hsep, e] using hx
-    · simpa [OpenNetwork.PositiveState, hsep, e] using hy
-    · simpa [OpenNetwork.Stationary, hsep, e] using hxs
-    · simpa [OpenNetwork.Stationary, hsep, e] using hys
+    · simpa [OpenNetwork.PositiveState, hsep, e] using! hx
+    · simpa [OpenNetwork.PositiveState, hsep, e] using! hy
+    · simpa [OpenNetwork.Stationary, hsep, e] using! hxs
+    · simpa [OpenNetwork.Stationary, hsep, e] using! hys
   · have hexception :
         l = 3 ∧ PaperWeakStemSpecies.AllCoincident Q.weakGap :=
       hclass.resolve_left hsep

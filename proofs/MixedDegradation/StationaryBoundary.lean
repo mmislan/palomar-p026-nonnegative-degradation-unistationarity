@@ -38,7 +38,7 @@ theorem stationary_boundary_nonsingular
       apply continuous_matrix
       intro i j
       by_cases hij : i=j
-      · simpa [Matrix.diagonal,hij] using (continuous_apply i).comp hf
+      · simpa [Matrix.diagonal,hij] using! (continuous_apply i).comp hf
       · simpa [Matrix.diagonal,hij] using (continuous_const : Continuous (fun _ : ℝ => (0 : ℝ)))
     have hec : Continuous ee := by dsimp [ee]; fun_prop
     have hjc : Continuous J := by dsimp [J, Matrix.mulVec, dotProduct]; fun_prop
