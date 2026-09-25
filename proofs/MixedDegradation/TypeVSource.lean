@@ -1,5 +1,6 @@
 import proofs.MixedDegradation.TypeVReduced
 import proofs.MixedDegradation.PassiveChain
+import proofs.MixedDegradation.TypeIILift
 
 namespace MixedDegradation.TypeV
 
@@ -218,10 +219,6 @@ theorem type_v_unistationarity (N : Network) (x y : State N)
     (current N y (i+1)+current N y (i+2)) (x.aux i) (y.aux i)
   · exact hxs i
   · simpa only [hb] using hys i
-
-def chainPositive : (q : MixedDegradation.UnitChain) → q.State → Prop
-  | .direct _ _ _ _, _ => True
-  | .extend q _ _ _ _ _ _, z => chainPositive q z.1 ∧ 0 < z.2
 
 def Sector.positiveAux : (q : Sector) → q.Aux → Prop
   | .collapsed, _ => True

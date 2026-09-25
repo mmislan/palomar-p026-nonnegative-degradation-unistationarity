@@ -39,6 +39,10 @@ def positiveTail : (q : MixedDegradation.UnitChain) → q.State → Prop
   | .direct _ _ _ _, _ => True
   | .extend q _ _ _ _ _ _, z => positiveTail q z.1 ∧ 0 < z.2
 
+def _root_.MixedDegradation.TypeV.chainPositive : (q : MixedDegradation.UnitChain) → q.State → Prop
+  | .direct _ _ _ _, _ => True
+  | .extend q _ _ _ _ _ _, z => chainPositive q z.1 ∧ 0 < z.2
+
 def Positive {S : SourceCyclicNonemptyGapSystem (l := l) next back}
     {weight : Fin n → ℕ} {rates : Rates S weight} (x : State S weight rates) : Prop :=
   (∀ i, 0 < x.core i) ∧ ∀ j, positiveTail (rates.chain j) (x.tail j)
