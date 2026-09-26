@@ -1,0 +1,20 @@
+{
+  "challenge_module": "Registry.P026.Challenge",
+  "solution_module": "Registry.P026.Solution",
+  "theorem_names": [
+    "MixedDegradation.paper_mixed_degradation_unistationarity"
+  ],
+  "permitted_axioms": [
+    "propext",
+    "Quot.sound",
+    "Classical.choice"
+  ],
+  "external_kernels": {
+    "nanoda": [
+      "/root/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/nanoda_bin"
+    ],
+    "con-ron": [
+      "/root/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/con-ron"
+    ]
+  }
+}

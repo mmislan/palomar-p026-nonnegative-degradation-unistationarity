@@ -1,0 +1,121 @@
+Resolving dependencies
+Building Registry.P026.Challenge
+⚠ [1217/1217] Built Registry.P026.Challenge (3.1s)
+warning: Registry/P026/Challenge.lean:559:8: declaration uses `sorry`
+Build completed successfully (1217 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, MixedDegradation.paper_mixed_degradation_unistationarity, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Registry.P026.Challenge
+Building Registry.P026.Solution
+✔ [8931/9021] Built proofs.MixedDegradation.BoundaryUniqueness (138s)
+✔ [8932/9021] Built proofs.TypeII3.Algebra.PowSecant (674s)
+✔ [8933/9021] Built proofs.TypeIIL.LogarithmicSecant (679s)
+✔ [8934/9021] Built proofs.TypeIIL.SourcePathSupersolution (679s)
+✔ [8935/9021] Built proofs.TypeIIL.MMatrixGreen (679s)
+✔ [8936/9021] Built proofs.TypeIIL.PaperCurrentTransport (679s)
+✔ [8937/9021] Built proofs.TypeII3.Network.Canonical (679s)
+✔ [8938/9021] Built proofs.TypeII3.Network.TwoRootKernel (680s)
+✔ [8939/9021] Built proofs.MixedDegradation.StationaryJacobian (680s)
+✔ [8940/9021] Built proofs.MixedDegradation.TypeVReduced (680s)
+✔ [8941/9021] Built proofs.TypeII3.Network.QuotientAllZero (681s)
+✔ [8942/9021] Built proofs.TypeIIL.CyclicClosureBound (681s)
+✔ [8943/9021] Built proofs.TypeIIL.LogarithmicSecantMatrix (227s)
+✔ [8944/9021] Built proofs.TypeIIL.OrderedMonomialSecant (232s)
+✔ [8945/9021] Built proofs.TypeIIL.SourceCorrectionBlock (226s)
+✔ [8946/9021] Built proofs.MixedDegradation.DiagonalBoundary (225s)
+✔ [8947/9021] Built proofs.TypeII3.Network.ChainCompression (227s)
+✔ [8948/9021] Built proofs.TypeIIL.CyclicCombinedCone (226s)
+✔ [8949/9021] Built proofs.MixedDegradation.LogDrift (228s)
+✔ [8950/9021] Built proofs.MixedDegradation.Coincident (229s)
+✔ [8951/9021] Built proofs.TypeII3.Network.WeightedCounterexample (232s)
+✔ [8952/9021] Built proofs.TypeII3.Network.SourceMembership (101s)
+✔ [8953/9021] Built proofs.TypeIIL.OrderedMonomialSecantMatrix (108s)
+✔ [8954/9021] Built proofs.MixedDegradation.InteriorBoundary (108s)
+✔ [8955/9021] Built proofs.TypeIIL.CurrentSecantKernel (108s)
+✔ [8956/9021] Built proofs.MixedDegradation.PassiveChain (108s)
+✔ [8957/9021] Built proofs.TypeIIL.SourceFinitePath (109s)
+✔ [8958/9021] Built proofs.TypeIIL.SourceOrderedProduct (58s)
+✔ [8959/9021] Built proofs.TypeIIL.GenericCurrentSecantKernel (58s)
+✔ [8960/9021] Built proofs.MixedDegradation.StationaryBoundary (58s)
+✔ [8961/9021] Built proofs.TypeIIL.PaperTailMinimality (60s)
+✔ [8962/9021] Built proofs.TypeIIL.SourceCurrentResidual (87s)
+✔ [8963/9021] Built proofs.TypeIIL.OrderedCurrentSecantKernel (87s)
+✔ [8964/9021] Built proofs.TypeIIL.PaperTailContraction (85s)
+✔ [8965/9021] Built proofs.MixedDegradation.CurrentJacobian (87s)
+✔ [8966/9021] Built proofs.TypeIIL.SourceCurrentMatrix (33s)
+✔ [8967/9021] Built proofs.TypeIIL.PaperMassActionAdapter (57s)
+✔ [8968/9021] Built proofs.TypeIIL.SourceBackFirstSecant (57s)
+✔ [8969/9021] Built proofs.TypeIIL.SourceGapAdapter (58s)
+✔ [8970/9021] Built proofs.MixedDegradation.SourceSecantDerivative (22s)
+✔ [8971/9021] Built proofs.TypeIIL.SourceGapResponseExistence (22s)
+✔ [8972/9021] Built proofs.TypeIIL.SourceForkGapAdapter (25s)
+✔ [8973/9021] Built proofs.TypeIIL.SourceGapBudget (22s)
+✔ [8974/9021] Built proofs.TypeIIL.SourceBackFirstPreGap (22s)
+✔ [8975/9021] Built proofs.TypeIIL.SourceWrapCondensation (14s)
+✔ [8976/9021] Built proofs.TypeIIL.SourceWrapGapAdapter (13s)
+✔ [8977/9021] Built proofs.TypeIIL.SourceWrapTwoNode (15s)
+✔ [8978/9021] Built proofs.TypeIIL.SourceWrapNatInduction (8.8s)
+✔ [8979/9021] Built proofs.TypeIIL.SourceWrapFiniteInduction (15s)
+✔ [8980/9021] Built proofs.TypeIIL.SourceWrapFiniteMargin (12s)
+✔ [8981/9021] Built proofs.TypeIIL.SourceWrapCoupledMargin (12s)
+✔ [8982/9021] Built proofs.TypeIIL.SourceWrapEndpointBudget (11s)
+✔ [8983/9021] Built proofs.TypeIIL.SourceWrapLiteralResponse (17s)
+✔ [8984/9021] Built proofs.TypeIIL.SourceWrapResponseExistence (128s)
+✔ [8985/9021] Built proofs.TypeIIL.SourceCyclicRawClosure (128s)
+✔ [8986/9021] Built proofs.TypeIIL.SourceWrapRightDiagonal (128s)
+✔ [8987/9021] Built proofs.TypeIIL.SourceWrapLiteralColumns (777s)
+✔ [8988/9021] Built proofs.TypeIIL.SourceCyclicKernelClosure (777s)
+✔ [8989/9021] Built proofs.TypeIIL.SourceCyclicRowAssembly (93s)
+✔ [8990/9021] Built proofs.TypeIIL.SourceWrapKernelElimination (95s)
+✔ [8991/9021] Built proofs.TypeIIL.SourceWrapPrecedingBudget (97s)
+✔ [8992/9021] Built proofs.TypeIIL.SourceGlobalRowSplit (59s)
+✔ [8993/9021] Built proofs.TypeIIL.SourceWrapLiteralSchurMargin (59s)
+✔ [8994/9021] Built proofs.TypeIIL.SourceWrapFollowingBudget (58s)
+✔ [8995/9021] Built proofs.TypeIIL.SourceCyclicGapSystem (31s)
+✔ [8996/9021] Built proofs.TypeIIL.SourceCyclicPartition (19s)
+✔ [8997/9021] Built proofs.TypeIIL.SourceForkRowAssembly (16s)
+ℹ [8998/9021] Built proofs.TypeIIL.SourceBaseCurrentTransport (15s)
+info: proofs/TypeIIL/SourceBaseCurrentTransport.lean:32:22: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+info: proofs/TypeIIL/SourceBaseCurrentTransport.lean:32:22: Try this:
+  [apply] ring_nf
+  
+  The `ring` tactic failed to close the goal. Use `ring_nf` to obtain a normal form.
+    
+  Note that `ring` works primarily in *commutative* rings. If you have a noncommutative ring, abelian group or module, consider using `noncomm_ring`, `abel` or `module` instead.
+✔ [8999/9021] Built proofs.TypeIIL.SourceForkSchurResponse (15s)
+✔ [9000/9021] Built proofs.MixedDegradation.SourceInvertible (20s)
+✔ [9001/9021] Built proofs.TypeIIL.SourceBackFirstResidual (24s)
+✔ [9002/9021] Built proofs.TypeIIL.SourceForkSchurDiagonal (26s)
+✔ [9003/9021] Built proofs.TypeIIL.SourceForkSchurMargin (14s)
+✔ [9004/9021] Built proofs.TypeIIL.SourceCyclicCombinedCone (11s)
+✔ [9005/9021] Built proofs.TypeIIL.SourceBackFirstCone (12s)
+✔ [9006/9021] Built problem_workspaces.RAF_full_type_II_l_closure.SingletonSpliceScratch (16s)
+✔ [9007/9021] Built proofs.TypeIIL.SourceBackFirstClosure (12s)
+✔ [9008/9021] Built proofs.TypeIIL.SourceBackFirstWeakClosure (12s)
+✔ [9009/9021] Built proofs.MixedDegradation.TypeIIInterior (7.4s)
+✔ [9010/9021] Built proofs.TypeIIL.PaperFullClosure (9.0s)
+✔ [9011/9021] Built proofs.MixedDegradation.SourceJacobian (7.9s)
+✔ [9012/9021] Built proofs.TypeIIL.PaperSourceLift (9.1s)
+✔ [9013/9021] Built proofs.MixedDegradation.SourceBoundary (8.4s)
+✔ [9014/9021] Built proofs.TypeIIL.PaperSourceExhaustion (9.8s)
+✔ [9015/9021] Built proofs.MixedDegradation.TypeIISkeleton (9.3s)
+✔ [9016/9021] Built proofs.MixedDegradation.TypeIILift (10s)
+✔ [9017/9021] Built proofs.MixedDegradation.TypeIISource (10s)
+✔ [9018/9021] Built proofs.MixedDegradation.TypeVSource (11s)
+✔ [9019/9021] Built proofs.MixedDegradation.Main (8.2s)
+✔ [9020/9021] Built proofs.MixedDegradation.NonemptyInstance (9.1s)
+✔ [9021/9021] Built Registry.P026.Solution (8.4s)
+Build completed successfully (9021 jobs).
+Exporting #[Quot, Quot.mk, Quot.lift, Quot.ind, MixedDegradation.paper_mixed_degradation_unistationarity, propext, Quot.sound, Classical.choice, Nat.add, Nat.sub, Nat.mul, Nat.pow, Nat.gcd, Nat.div, Nat.mod, Nat.beq, Nat.ble, Nat.land, Nat.lor, Nat.xor, Nat.shiftLeft, Nat.shiftRight, String.ofList, Char.ofNat, List, eagerReduce, Nat, String, String.mk, Char, optParam, autoParam, semiOutParam, outParam] from Registry.P026.Solution
+Running con-ron kernel on solution
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: accepted 36303 declarations (--verified)
+con-ron kernel accepts the solution
+Running nanoda kernel on solution
+nanoda kernel accepts the solution
+Running Lean default kernel on solution
+Lean default kernel accepts the solution
+Your solution is okay!
