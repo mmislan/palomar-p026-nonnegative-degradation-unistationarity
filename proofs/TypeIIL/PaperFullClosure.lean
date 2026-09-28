@@ -1,6 +1,10 @@
-import proofs.TypeIIL.SourceBackFirstWeakClosure
-import proofs.TypeIIL.PaperMassActionAdapter
-import proofs.TypeIIL.PaperTailContraction
+module
+
+public import proofs.TypeIIL.SourceBackFirstWeakClosure
+public import proofs.TypeIIL.PaperMassActionAdapter
+public import proofs.TypeIIL.PaperTailContraction
+
+@[expose] public section
 
 namespace TypeIIL
 

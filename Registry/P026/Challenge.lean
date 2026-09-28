@@ -1,10 +1,14 @@
-import Mathlib.Basic.Real.Basic
-import Mathlib.Logic.Equiv.Fin.Rotate
-import Mathlib.Data.Fintype.Sum
-import Mathlib.Data.Fintype.Sets
-import Mathlib.Data.Fintype.Powerset
-import Mathlib.Data.Matrix.Basic
-import Mathlib.Algebra.BigOperators.Fin
+module
+
+public import Mathlib.Basic.Real.Basic
+public import Mathlib.Logic.Equiv.Fin.Rotate
+public import Mathlib.Data.Fintype.Sum
+public import Mathlib.Data.Fintype.Sets
+public import Mathlib.Data.Fintype.Powerset
+public import Mathlib.Data.Matrix.Basic
+public import Mathlib.Algebra.BigOperators.Fin
+
+@[expose] public section
 
 /-!
 # Type II_l and Type V uniqueness with nonnegative degradation

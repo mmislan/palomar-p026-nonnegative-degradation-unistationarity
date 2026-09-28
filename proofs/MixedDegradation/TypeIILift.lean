@@ -1,6 +1,10 @@
-import proofs.MixedDegradation.TypeIISkeleton
-import proofs.MixedDegradation.PassiveChain
-import proofs.TypeIIL.PaperSourceLift
+module
+
+public import proofs.MixedDegradation.TypeIISkeleton
+public import proofs.MixedDegradation.PassiveChain
+public import proofs.TypeIIL.PaperSourceLift
+
+@[expose] public section
 
 namespace MixedDegradation.TypeII
 open TypeIIL TypeII3

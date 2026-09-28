@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceBackFirstResidual
-import proofs.TypeIIL.SourceCyclicCombinedCone
+module
+
+public import proofs.TypeIIL.SourceBackFirstResidual
+public import proofs.TypeIIL.SourceCyclicCombinedCone
+
+@[expose] public section
 
 namespace TypeIIL
 

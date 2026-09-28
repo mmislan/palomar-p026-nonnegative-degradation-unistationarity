@@ -1,5 +1,9 @@
-import proofs.MixedDegradation.StationaryJacobian
-import proofs.MixedDegradation.BoundaryUniqueness
+module
+
+public import proofs.MixedDegradation.StationaryJacobian
+public import proofs.MixedDegradation.BoundaryUniqueness
+
+@[expose] public section
 
 namespace MixedDegradation
 open Filter Set

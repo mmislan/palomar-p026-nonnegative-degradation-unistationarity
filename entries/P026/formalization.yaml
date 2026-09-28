@@ -1,8 +1,8 @@
 {
   "version": "v0.4",
   "project": {
-    "name": "Unistationarity of source-minimal Type II_l autocatalytic cores (l >= 3) and of Type V core normal forms under nonnegative degradation",
-    "description": "Nandan, Nghe and Unterberger asked whether uniqueness of positive stationary states of diluted autocatalytic cores, known under positive degradation of every species, survives when some species are not degraded, leaving Type V and Type II_l with l > 2 open. For two explicit normal forms of these cores, the reversible mass-action system has at most one strictly positive stationary state whenever all forward and reverse rate constants are positive and every linear degradation constant is nonnegative, so any or all of them may vanish. The first family consists of Type II_l networks with l ≥ 3 cyclically ordered forks, nonempty gaps of nonfork species, positive integer main weights, coefficient-one back products and reversible unit return chains, satisfying the topological autocatalysis condition (Top) and source minimality: no proper chemostatted restriction of the weak-stem skeleton retains (Top), and no rotated return cycle is stoichiometrically autocatalytic. When l = 3 and all stems are coincident, the network is X_i ⇌ m_i X_{i+1} + X_{i+2} (indices mod 3, m_i ≥ 1). The second family consists of Type V networks with base species U_0, U_1, U_2 and reactions S_i ⇌ U_{i+1} + U_{i+2}, where each S_i is identified with U_i or joined to it by an arbitrary finite reversible unit chain. Uniqueness holds for the full state, including every internal chain species.",
+    "name": "Unistationarity of Type II_l and Type V normal forms with nonnegative degradation",
+    "description": "Nandan, Nghe and Unterberger (arXiv:2507.15546, Theorem 5.2 and the following remark) left uniqueness with degradation unresolved for Type II_l cores with l > 2 and, when some degradation rates vanish, for Type V cores. For the source-minimal Type II_l normal forms with l ≥ 3 and the Type V normal forms, unistationarity is established for reversible mass-action kinetics with positive forward and reverse rate constants and arbitrary nonnegative linear degradation. Any two strictly positive stationary concentration vectors coincide, including all internal species of the reversible unit chains. The Type II_l class includes separated stems and the coincident three-fork case. The proof combines passive-chain elimination and a ratio argument for Type V with boundary Jacobian nonsingularity and an implicit-function argument for Type II_l.",
     "authors": [
       "Michael Mislan"
     ],
@@ -42,9 +42,9 @@
       ],
       "type": "paper",
       "relationship": "background",
-      "id": "doi:10.1007/s00285-026-02357-7",
-      "location": "https://doi.org/10.1007/s00285-026-02357-7",
-      "note": "Journal of Mathematical Biology 92 (2026), article 36; arXiv:2507.15546. The remark following Theorem 5.2 raises mixed degradation (some species undegraded) and leaves uniqueness open for the Type V cores and the Type II_l cores with l > 2; the classification is their Theorem 3.1."
+      "id": "arxiv:2507.15546",
+      "location": "https://arxiv.org/abs/2507.15546",
+      "note": "Theorem 5.2 excludes Type II_l with l > 2 from the positive-degradation uniqueness result; the following remark leaves mixed-degradation Type V unresolved. Theorem 3.1 gives the classification. Published in Journal of Mathematical Biology 92 (2026), article 36, doi:10.1007/s00285-026-02357-7."
     }
   ],
   "status": {
@@ -70,7 +70,7 @@
   },
   "review": {
     "status": "agent-reviewed",
-    "notes": "A source-reading correspondence review is in entries/P026/CLAIM-EVIDENCE.md. Only a Lean 4.30.0 historical receipt exists for the proof; target-toolchain Solution compilation, Comparator comparison and independent kernel checks are pending. This is not an independent human review and no Lean was executed for it."
+    "notes": "The selected statement, its hypotheses and its correspondence to the cited literature are described in entries/P026/CLAIM-EVIDENCE.md. The review is agent-assisted."
   },
   "fidelity": {
     "divergences": "The formal statement uses literal source normal forms rather than the prose classification; their identification with the Nandan-Nghe-Unterberger families is conventional mathematics in the manuscript. Type II_l return paths are modelled kinetically as reversible unit chains, and their multipliers enter only the source-minimality predicate; minimality forces unit multipliers (manuscript Lemma 2.2). (Top) and source minimality are evaluated on the contracted weak-stem skeleton PaperWeakStemSpecies Q.weakGap and on the return-cycle multipliers, not on the full species set of the separated realization. In the core balance the terminal reaction's own current is replaced by the chain boundary fluxes, so terminal_plus/terminal_minus only tie placeholders to the chain summary. The Type II_l state and positivity predicates select the separated realization or, only when l = 3 and all stems are coincident, the three-species coincident quotient; other non-separated words have no positive states in the encoding (the first conjunct is vacuous there) and are excluded from minimal cores by the inherited source-exhaustion lemma TypeIIL.PaperWeakStemSpecies.source_exhaustion_of_minimal, which is proved in the closure but is not part of the selected statement. Type V is stated over all eight collapsed/linked patterns with arbitrary unit chains, without a separate minimality hypothesis; the manuscript's Theorem 1.1 speaks of source-minimal Type V cores. The name AllZeroParams refers to the all-coincident stem word, not to zero degradation."
@@ -83,7 +83,7 @@
         "lean": "MixedDegradation.paper_mixed_degradation_unistationarity",
         "module": "Registry.P026.Challenge",
         "status": "proved",
-        "note": "Proved per the Lean 4.30.0 historical receipt only; target-toolchain verification pending. Conjunction of Type II_l (l >= 3, IsPaperTypeIILCore) and Type V uniqueness with positive reversible rates and nonnegative degradation; uniqueness only."
+        "note": "Conjunction of Type II_l (l ≥ 3, IsPaperTypeIILCore) and Type V uniqueness with positive reversible rates and nonnegative degradation. Equality includes the full concentration vector, including internal chain species."
       }
     ]
   }

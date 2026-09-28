@@ -1,6 +1,10 @@
-import proofs.TypeIIL.SourceBackFirstPreGap
-import proofs.TypeIIL.SourceBaseCurrentTransport
-import proofs.TypeIIL.SourceGlobalRowSplit
+module
+
+public import proofs.TypeIIL.SourceBackFirstPreGap
+public import proofs.TypeIIL.SourceBaseCurrentTransport
+public import proofs.TypeIIL.SourceGlobalRowSplit
+
+@[expose] public section
 
 namespace TypeIIL
 

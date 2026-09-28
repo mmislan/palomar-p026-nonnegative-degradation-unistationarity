@@ -1,5 +1,9 @@
-import proofs.TypeIIL.CyclicClosureBound
-import Mathlib.LinearAlgebra.Matrix.Gershgorin
+module
+
+public import proofs.TypeIIL.CyclicClosureBound
+public import Mathlib.LinearAlgebra.Matrix.Gershgorin
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL

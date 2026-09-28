@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceCurrentMatrix
-import proofs.TypeIIL.SourceFinitePath
+module
+
+public import proofs.TypeIIL.SourceCurrentMatrix
+public import proofs.TypeIIL.SourceFinitePath
+
+@[expose] public section
 
 namespace TypeIIL
 

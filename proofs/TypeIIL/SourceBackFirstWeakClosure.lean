@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceBackFirstClosure
-import problem_workspaces.RAF_full_type_II_l_closure.SingletonSpliceScratch
+module
+
+public import proofs.TypeIIL.SourceBackFirstClosure
+public import problem_workspaces.RAF_full_type_II_l_closure.SingletonSpliceScratch
+
+@[expose] public section
 
 namespace TypeIIL
 

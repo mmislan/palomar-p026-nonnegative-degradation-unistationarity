@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourcePathSupersolution
-import proofs.TypeIIL.SourceCorrectionBlock
+module
+
+public import proofs.TypeIIL.SourcePathSupersolution
+public import proofs.TypeIIL.SourceCorrectionBlock
+
+@[expose] public section
 
 namespace TypeIIL
 

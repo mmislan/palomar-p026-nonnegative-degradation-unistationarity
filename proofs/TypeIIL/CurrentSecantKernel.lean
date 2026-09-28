@@ -1,4 +1,8 @@
-import proofs.TypeIIL.LogarithmicSecantMatrix
+module
+
+public import proofs.TypeIIL.LogarithmicSecantMatrix
+
+@[expose] public section
 
 namespace TypeIIL
 

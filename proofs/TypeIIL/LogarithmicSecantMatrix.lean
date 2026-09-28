@@ -1,4 +1,8 @@
-import proofs.TypeIIL.LogarithmicSecant
+module
+
+public import proofs.TypeIIL.LogarithmicSecant
+
+@[expose] public section
 
 namespace TypeIIL
 

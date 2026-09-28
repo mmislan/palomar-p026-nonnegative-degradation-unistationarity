@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceCyclicCombinedCone
+module
+
+public import proofs.TypeIIL.SourceCyclicCombinedCone
+
+@[expose] public section
 
 namespace TypeIIL
 

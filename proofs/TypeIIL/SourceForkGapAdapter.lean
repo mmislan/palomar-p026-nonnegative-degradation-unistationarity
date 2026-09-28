@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceGapAdapter
+module
+
+public import proofs.TypeIIL.SourceGapAdapter
+
+@[expose] public section
 
 namespace TypeIIL
 

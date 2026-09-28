@@ -1,5 +1,9 @@
-import proofs.TypeIIL.GenericCurrentSecantKernel
-import proofs.TypeIIL.SourceOrderedProduct
+module
+
+public import proofs.TypeIIL.GenericCurrentSecantKernel
+public import proofs.TypeIIL.SourceOrderedProduct
+
+@[expose] public section
 
 namespace TypeIIL
 

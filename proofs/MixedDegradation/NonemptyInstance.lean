@@ -1,4 +1,8 @@
-import proofs.MixedDegradation.Main
+module
+
+public import proofs.MixedDegradation.Main
+
+@[expose] public section
 
 /-!
 # A nonempty instance of the Type `II_l` hypothesis class

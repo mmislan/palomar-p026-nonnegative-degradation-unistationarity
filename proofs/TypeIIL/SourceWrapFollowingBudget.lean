@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceWrapRightDiagonal
-import proofs.TypeIIL.SourceWrapPrecedingBudget
+module
+
+public import proofs.TypeIIL.SourceWrapRightDiagonal
+public import proofs.TypeIIL.SourceWrapPrecedingBudget
+
+@[expose] public section
 
 namespace TypeIIL
 

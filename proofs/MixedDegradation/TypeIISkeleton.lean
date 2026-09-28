@@ -1,6 +1,10 @@
-import proofs.MixedDegradation.SourceBoundary
-import proofs.MixedDegradation.LogDrift
-import proofs.TypeIIL.PaperFullClosure
+module
+
+public import proofs.MixedDegradation.SourceBoundary
+public import proofs.MixedDegradation.LogDrift
+public import proofs.TypeIIL.PaperFullClosure
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL TypeII3

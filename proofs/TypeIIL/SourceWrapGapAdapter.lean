@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceWrapCondensation
+module
+
+public import proofs.TypeIIL.SourceWrapCondensation
+
+@[expose] public section
 
 namespace TypeIIL
 

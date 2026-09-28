@@ -1,4 +1,8 @@
-import proofs.TypeIIL.OrderedMonomialSecantMatrix
+module
+
+public import proofs.TypeIIL.OrderedMonomialSecantMatrix
+
+@[expose] public section
 
 namespace TypeIIL
 

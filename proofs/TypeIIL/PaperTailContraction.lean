@@ -1,5 +1,9 @@
-import proofs.TypeIIL.PaperTailMinimality
-import proofs.TypeII3.Network.ChainCompression
+module
+
+public import proofs.TypeIIL.PaperTailMinimality
+public import proofs.TypeII3.Network.ChainCompression
+
+@[expose] public section
 
 namespace TypeIIL
 

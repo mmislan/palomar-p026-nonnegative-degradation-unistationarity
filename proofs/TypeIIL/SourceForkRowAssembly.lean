@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceCyclicPartition
+module
+
+public import proofs.TypeIIL.SourceCyclicPartition
+
+@[expose] public section
 
 namespace TypeIIL
 

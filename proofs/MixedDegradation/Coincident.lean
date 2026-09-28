@@ -1,4 +1,8 @@
-import proofs.TypeII3.Network.QuotientAllZero
+module
+
+public import proofs.TypeII3.Network.QuotientAllZero
+
+@[expose] public section
 
 namespace MixedDegradation.Coincident
 open TypeII3

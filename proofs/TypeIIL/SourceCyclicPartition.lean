@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceCyclicGapSystem
+module
+
+public import proofs.TypeIIL.SourceCyclicGapSystem
+
+@[expose] public section
 
 namespace TypeIIL
 

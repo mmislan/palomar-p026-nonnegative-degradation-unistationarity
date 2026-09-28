@@ -1,4 +1,8 @@
-import proofs.TypeIIL.MMatrixGreen
+module
+
+public import proofs.TypeIIL.MMatrixGreen
+
+@[expose] public section
 
 namespace TypeIIL
 

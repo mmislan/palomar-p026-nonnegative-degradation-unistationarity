@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceBackFirstSecant
+module
+
+public import proofs.TypeIIL.SourceBackFirstSecant
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL

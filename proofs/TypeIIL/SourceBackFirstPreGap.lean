@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceBackFirstSecant
-import proofs.TypeIIL.SourceForkGapAdapter
+module
+
+public import proofs.TypeIIL.SourceBackFirstSecant
+public import proofs.TypeIIL.SourceForkGapAdapter
+
+@[expose] public section
 
 namespace TypeIIL
 

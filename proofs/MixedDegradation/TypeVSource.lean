@@ -1,6 +1,10 @@
-import proofs.MixedDegradation.TypeVReduced
-import proofs.MixedDegradation.PassiveChain
-import proofs.MixedDegradation.TypeIILift
+module
+
+public import proofs.MixedDegradation.TypeVReduced
+public import proofs.MixedDegradation.PassiveChain
+public import proofs.MixedDegradation.TypeIILift
+
+@[expose] public section
 
 namespace MixedDegradation.TypeV
 

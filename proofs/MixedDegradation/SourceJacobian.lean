@@ -1,6 +1,10 @@
-import proofs.MixedDegradation.TypeIIInterior
-import proofs.MixedDegradation.CurrentJacobian
-import proofs.MixedDegradation.SourceSecantDerivative
+module
+
+public import proofs.MixedDegradation.TypeIIInterior
+public import proofs.MixedDegradation.CurrentJacobian
+public import proofs.MixedDegradation.SourceSecantDerivative
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL

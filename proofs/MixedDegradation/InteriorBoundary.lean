@@ -1,4 +1,8 @@
-import proofs.MixedDegradation.DiagonalBoundary
+module
+
+public import proofs.MixedDegradation.DiagonalBoundary
+
+@[expose] public section
 
 namespace MixedDegradation
 open Filter Set

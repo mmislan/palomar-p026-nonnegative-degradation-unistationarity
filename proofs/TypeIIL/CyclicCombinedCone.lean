@@ -1,4 +1,8 @@
-import proofs.TypeIIL.CyclicClosureBound
+module
+
+public import proofs.TypeIIL.CyclicClosureBound
+
+@[expose] public section
 
 namespace TypeIIL
 

@@ -1,4 +1,8 @@
-import proofs.TypeII3.Network.ChainCompression
+module
+
+public import proofs.TypeII3.Network.ChainCompression
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeII3

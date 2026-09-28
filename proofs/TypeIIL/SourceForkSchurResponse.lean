@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceForkRowAssembly
+module
+
+public import proofs.TypeIIL.SourceForkRowAssembly
+
+@[expose] public section
 
 namespace TypeIIL
 

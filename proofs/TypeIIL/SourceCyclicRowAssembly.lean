@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceCyclicKernelClosure
+module
+
+public import proofs.TypeIIL.SourceCyclicKernelClosure
+
+@[expose] public section
 
 namespace TypeIIL
 

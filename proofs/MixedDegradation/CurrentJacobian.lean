@@ -1,5 +1,9 @@
-import proofs.MixedDegradation.StationaryJacobian
-import proofs.TypeIIL.GenericCurrentSecantKernel
+module
+
+public import proofs.MixedDegradation.StationaryJacobian
+public import proofs.TypeIIL.GenericCurrentSecantKernel
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL

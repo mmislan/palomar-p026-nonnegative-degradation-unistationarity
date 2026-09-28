@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceWrapLiteralColumns
+module
+
+public import proofs.TypeIIL.SourceWrapLiteralColumns
+
+@[expose] public section
 
 namespace TypeIIL
 

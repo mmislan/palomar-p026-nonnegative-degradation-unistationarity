@@ -1,5 +1,9 @@
-import Mathlib
-import proofs.TypeII3.Network.TwoRootKernel
+module
+
+public import Mathlib
+public import proofs.TypeII3.Network.TwoRootKernel
+
+@[expose] public section
 
 namespace TypeII3
 

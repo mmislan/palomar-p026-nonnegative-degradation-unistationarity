@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceCurrentResidual
+module
+
+public import proofs.TypeIIL.SourceCurrentResidual
+
+@[expose] public section
 
 namespace TypeIIL
 

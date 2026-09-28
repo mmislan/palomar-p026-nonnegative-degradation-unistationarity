@@ -1,2 +1,6 @@
-import proofs.MixedDegradation.Main
-import proofs.MixedDegradation.NonemptyInstance
+module
+
+public import proofs.MixedDegradation.Main
+public import proofs.MixedDegradation.NonemptyInstance
+
+@[expose] public section

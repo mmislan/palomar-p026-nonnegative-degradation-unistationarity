@@ -1,5 +1,9 @@
-import proofs.MixedDegradation.StationaryJacobian
-import proofs.MixedDegradation.InteriorBoundary
+module
+
+public import proofs.MixedDegradation.StationaryJacobian
+public import proofs.MixedDegradation.InteriorBoundary
+
+@[expose] public section
 
 namespace MixedDegradation
 open scoped Matrix

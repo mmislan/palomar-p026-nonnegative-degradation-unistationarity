@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceWrapFollowingBudget
-import proofs.TypeIIL.SourceForkSchurResponse
+module
+
+public import proofs.TypeIIL.SourceWrapFollowingBudget
+public import proofs.TypeIIL.SourceForkSchurResponse
+
+@[expose] public section
 
 namespace TypeIIL
 

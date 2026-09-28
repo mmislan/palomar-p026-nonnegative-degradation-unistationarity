@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceForkSchurDiagonal
-import proofs.TypeIIL.SourceWrapLiteralSchurMargin
+module
+
+public import proofs.TypeIIL.SourceForkSchurDiagonal
+public import proofs.TypeIIL.SourceWrapLiteralSchurMargin
+
+@[expose] public section
 
 namespace TypeIIL
 

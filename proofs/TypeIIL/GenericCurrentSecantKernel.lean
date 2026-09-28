@@ -1,4 +1,8 @@
-import proofs.TypeIIL.CurrentSecantKernel
+module
+
+public import proofs.TypeIIL.CurrentSecantKernel
+
+@[expose] public section
 
 namespace TypeIIL
 

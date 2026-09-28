@@ -1,6 +1,10 @@
-import proofs.TypeIIL.PaperSourceExhaustion
-import proofs.MixedDegradation.TypeIILift
-import proofs.MixedDegradation.Coincident
+module
+
+public import proofs.TypeIIL.PaperSourceExhaustion
+public import proofs.MixedDegradation.TypeIILift
+public import proofs.MixedDegradation.Coincident
+
+@[expose] public section
 
 namespace MixedDegradation.TypeII
 

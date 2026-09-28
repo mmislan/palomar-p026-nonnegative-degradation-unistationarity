@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceWrapResponseExistence
-import proofs.TypeIIL.SourceWrapGapAdapter
+module
+
+public import proofs.TypeIIL.SourceWrapResponseExistence
+public import proofs.TypeIIL.SourceWrapGapAdapter
+
+@[expose] public section
 
 namespace TypeIIL
 

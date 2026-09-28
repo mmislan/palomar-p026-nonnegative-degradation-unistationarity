@@ -1,6 +1,10 @@
-import proofs.TypeIIL.SourceForkRowAssembly
-import proofs.TypeIIL.PaperCurrentTransport
-import proofs.TypeII3.Network.TwoRootKernel
+module
+
+public import proofs.TypeIIL.SourceForkRowAssembly
+public import proofs.TypeIIL.PaperCurrentTransport
+public import proofs.TypeII3.Network.TwoRootKernel
+
+@[expose] public section
 
 namespace TypeIIL
 

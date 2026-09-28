@@ -1,5 +1,9 @@
-import Mathlib
-import proofs.TypeII3.Network.WeightedCounterexample
+module
+
+public import Mathlib
+public import proofs.TypeII3.Network.WeightedCounterexample
+
+@[expose] public section
 
 namespace TypeII3
 

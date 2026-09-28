@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceWrapLiteralResponse
+module
+
+public import proofs.TypeIIL.SourceWrapLiteralResponse
+
+@[expose] public section
 
 namespace TypeIIL
 

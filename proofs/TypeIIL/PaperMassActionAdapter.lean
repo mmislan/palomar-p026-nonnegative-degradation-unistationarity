@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceCurrentMatrix
-import proofs.TypeII3.Network.TwoRootKernel
+module
+
+public import proofs.TypeIIL.SourceCurrentMatrix
+public import proofs.TypeII3.Network.TwoRootKernel
+
+@[expose] public section
 
 namespace TypeIIL
 

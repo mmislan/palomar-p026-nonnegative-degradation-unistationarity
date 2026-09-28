@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceWrapEndpointBudget
-import proofs.TypeIIL.SourceWrapFiniteMargin
+module
+
+public import proofs.TypeIIL.SourceWrapEndpointBudget
+public import proofs.TypeIIL.SourceWrapFiniteMargin
+
+@[expose] public section
 
 namespace TypeIIL
 

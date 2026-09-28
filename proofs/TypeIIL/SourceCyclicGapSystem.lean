@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceGlobalRowSplit
+module
+
+public import proofs.TypeIIL.SourceGlobalRowSplit
+
+@[expose] public section
 
 namespace TypeIIL
 

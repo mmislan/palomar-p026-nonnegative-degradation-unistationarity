@@ -1,4 +1,8 @@
-import proofs.TypeII3.Network.Canonical
+module
+
+public import proofs.TypeII3.Network.Canonical
+
+@[expose] public section
 
 namespace TypeII3
 

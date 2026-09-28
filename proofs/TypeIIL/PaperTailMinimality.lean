@@ -1,4 +1,8 @@
-import proofs.TypeII3.Network.SourceMembership
+module
+
+public import proofs.TypeII3.Network.SourceMembership
+
+@[expose] public section
 
 namespace TypeIIL
 

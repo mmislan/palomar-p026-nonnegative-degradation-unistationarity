@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceWrapCoupledMargin
+module
+
+public import proofs.TypeIIL.SourceWrapCoupledMargin
+
+@[expose] public section
 
 namespace TypeIIL
 

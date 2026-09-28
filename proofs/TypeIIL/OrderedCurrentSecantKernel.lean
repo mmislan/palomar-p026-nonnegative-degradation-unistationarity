@@ -1,5 +1,9 @@
-import proofs.TypeIIL.GenericCurrentSecantKernel
-import proofs.TypeIIL.OrderedMonomialSecantMatrix
+module
+
+public import proofs.TypeIIL.GenericCurrentSecantKernel
+public import proofs.TypeIIL.OrderedMonomialSecantMatrix
+
+@[expose] public section
 
 namespace TypeIIL
 

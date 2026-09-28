@@ -1,5 +1,9 @@
-import proofs.TypeIIL.PaperFullClosure
-import proofs.TypeII3.Network.QuotientAllZero
+module
+
+public import proofs.TypeIIL.PaperFullClosure
+public import proofs.TypeII3.Network.QuotientAllZero
+
+@[expose] public section
 
 namespace TypeIIL
 

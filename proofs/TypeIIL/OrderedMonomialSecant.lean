@@ -1,4 +1,8 @@
-import proofs.TypeII3.Algebra.PowSecant
+module
+
+public import proofs.TypeII3.Algebra.PowSecant
+
+@[expose] public section
 
 namespace TypeIIL
 

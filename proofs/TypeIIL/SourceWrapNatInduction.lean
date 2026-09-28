@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceWrapTwoNode
-import proofs.TypeIIL.SourceWrapGapAdapter
+module
+
+public import proofs.TypeIIL.SourceWrapTwoNode
+public import proofs.TypeIIL.SourceWrapGapAdapter
+
+@[expose] public section
 
 namespace TypeIIL
 

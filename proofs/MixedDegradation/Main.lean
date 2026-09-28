@@ -1,5 +1,9 @@
-import proofs.MixedDegradation.TypeIISource
-import proofs.MixedDegradation.TypeVSource
+module
+
+public import proofs.MixedDegradation.TypeIISource
+public import proofs.MixedDegradation.TypeVSource
+
+@[expose] public section
 
 namespace MixedDegradation
 

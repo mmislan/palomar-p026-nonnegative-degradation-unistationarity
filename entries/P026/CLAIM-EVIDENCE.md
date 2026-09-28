@@ -1,7 +1,5 @@
 # P026: claim-to-evidence correspondence
 
-Source-reading review dated 2026-09-24. No Lean was executed for this review.
-
 ## Selected declaration
 
 `MixedDegradation.paper_mixed_degradation_unistationarity` in
@@ -68,32 +66,28 @@ include:
 The interior positive-degradation criterion of the Type II_l development
 (`proofs/TypeIIL`) is imported and proved in the closure. It is not assumed.
 
-Evidence: historical receipt only. `papers/P026/claims.json` records a
-Lean 4.30.0 receipt for `proofs/MixedDegradation/Main.lean`
-(`migration/historical-receipts/d23fbd12c0850234df0a.json`), with axioms
-`propext`, `Classical.choice`, `Quot.sound`. On the target toolchain only the
-Challenge statement has been compiled
-([statement check](statement-check.json)). This check does not cover the proof.
-`Registry/P026/Solution.lean` is the single line `import proofs.MixedDegradation.Main`.
+The Solution imports both `proofs.MixedDegradation.Main` and
+`proofs.MixedDegradation.NonemptyInstance`. The latter constructs a six-species,
+three-fork network with unit rates and weights, zero degradation and tail depth
+one, proves all core hypotheses, and exhibits the all-ones positive stationary
+state. Its theorem `paper_typeIIL_instance_unique` applies the selected result
+to obtain existence and uniqueness for this explicit instance.
 
 ## Literature correspondence
 
 Primary source: P. Nandan, P. Nghe and J. Unterberger, *Autocatalytic cores in
 the diluted regime: classification and properties*, Journal of Mathematical
-Biology 92 (2026), article 36, doi:10.1007/s00285-026-02357-7, arXiv:2507.15546.
-The companion manuscript cites the remark after their Theorem 5.2. There the
-authors raise mixed degradation, where some species are degraded and others
-are not, and note that their argument does not settle it for Type V or for
-Type II_l with l > 2.
+Biology 92 (2026), article 36, doi:10.1007/s00285-026-02357-7,
+[arXiv:2507.15546](https://arxiv.org/abs/2507.15546).
+Theorem 5.2 excludes Type II_l with l > 2 from the positive-degradation
+uniqueness result. The following remark leaves the mixed-degradation Type V
+case unresolved.
 
-The entry settles that question as posed, but only for these two families. For
-the reversible mass-action extension of each such source-minimal core, positive
+For the literal normal forms representing these two families, positive
 reversible rates and any nonnegative degradation vector give at most one
-strictly positive stationary state. This is **not** an unconditional extension
-of positive-degradation uniqueness:
-
-- it requires source minimality (`IsPaperTypeIILCore`) for Type II_l and `l ≥ 3`;
-- it covers only the literal source normal forms encoded in the Challenge.
+strictly positive stationary state. The Type II_l result requires source
+minimality (`IsPaperTypeIILCore`) and `l ≥ 3`; the Type V result applies to
+every network in its encoded normal form.
 
 The companion Type II_l paper reports that nonminimal networks can be
 multistationary. The step identifying these normal forms with the prose
@@ -105,7 +99,7 @@ This is an agent-assisted source reading, not an independent human review.
 
 ## Evidence boundary
 
-- Not formalized: existence of a positive stationary state; stability; the
+- Not formalized: general existence of a positive stationary state; stability; the
   quantitative determinant bound; local continuation; small-degradation
   existence and stability (Section 8); the identification of the Lean normal
   forms with the published classification; Corollary 1.2.
@@ -113,11 +107,7 @@ This is an agent-assisted source reading, not an independent human review.
   other reactions are outside the statement.
 - Coverage of the non-separated Type II_l case relies on the branch gating
   described above together with `source_exhaustion_of_minimal`.
-- The Solution closure (90 modules including `Registry.P026.Solution`) contains
+- The Solution closure (91 modules including `Registry.P026.Solution`) contains
   `problem_workspaces/RAF_full_type_II_l_closure/SingletonSpliceScratch.lean`,
   imported from `proofs/TypeIIL/SourceBackFirstWeakClosure.lean`. It lives
   outside `proofs/` and must be shipped with any release candidate.
-- A text grep of that closure found no `sorry`, `admit` or `axiom` tokens. This
-  grep does not replace an axiom check.
-- The target Solution compilation, Comparator run and independent kernel checks
-  are pending. `entries/P026/readiness.json` records them as `NOT_RUN`.

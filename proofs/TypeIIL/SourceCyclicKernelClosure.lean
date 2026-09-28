@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceCyclicRawClosure
+module
+
+public import proofs.TypeIIL.SourceCyclicRawClosure
+
+@[expose] public section
 
 namespace TypeIIL
 

@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceWrapFiniteInduction
+module
+
+public import proofs.TypeIIL.SourceWrapFiniteInduction
+
+@[expose] public section
 
 namespace TypeIIL
 

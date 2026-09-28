@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceBackFirstCone
+module
+
+public import proofs.TypeIIL.SourceBackFirstCone
+
+@[expose] public section
 
 namespace TypeIIL
 

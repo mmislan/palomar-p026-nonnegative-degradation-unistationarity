@@ -1,5 +1,9 @@
-import proofs.TypeIIL.SourceBaseCurrentTransport
-import proofs.TypeIIL.CyclicCombinedCone
+module
+
+public import proofs.TypeIIL.SourceBaseCurrentTransport
+public import proofs.TypeIIL.CyclicCombinedCone
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL

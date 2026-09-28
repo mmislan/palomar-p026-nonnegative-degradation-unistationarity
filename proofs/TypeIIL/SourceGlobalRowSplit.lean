@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceWrapKernelElimination
+module
+
+public import proofs.TypeIIL.SourceWrapKernelElimination
+
+@[expose] public section
 
 namespace TypeIIL
 

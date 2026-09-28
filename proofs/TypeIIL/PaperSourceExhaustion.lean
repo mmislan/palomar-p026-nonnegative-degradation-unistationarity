@@ -1,4 +1,8 @@
-import proofs.TypeIIL.PaperSourceLift
+module
+
+public import proofs.TypeIIL.PaperSourceLift
+
+@[expose] public section
 
 namespace TypeIIL
 

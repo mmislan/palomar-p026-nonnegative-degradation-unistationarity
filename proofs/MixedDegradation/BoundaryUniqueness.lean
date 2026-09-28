@@ -1,5 +1,9 @@
-import Mathlib.Analysis.Calculus.ImplicitFunction.ProdDomain
-import Mathlib.Topology.Order.DenselyOrdered
+module
+
+public import Mathlib.Analysis.Calculus.ImplicitFunction.ProdDomain
+public import Mathlib.Topology.Order.DenselyOrdered
+
+@[expose] public section
 
 namespace MixedDegradation
 open Filter Set

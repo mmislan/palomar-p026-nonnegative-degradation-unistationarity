@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceWrapNatInduction
+module
+
+public import proofs.TypeIIL.SourceWrapNatInduction
+
+@[expose] public section
 
 namespace TypeIIL
 

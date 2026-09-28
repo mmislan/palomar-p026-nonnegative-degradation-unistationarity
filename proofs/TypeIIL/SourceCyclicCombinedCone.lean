@@ -1,7 +1,11 @@
-import proofs.TypeIIL.CyclicCombinedCone
-import proofs.TypeIIL.OrderedCurrentSecantKernel
-import proofs.TypeIIL.SourceCyclicRowAssembly
-import proofs.TypeIIL.SourceForkSchurMargin
+module
+
+public import proofs.TypeIIL.CyclicCombinedCone
+public import proofs.TypeIIL.OrderedCurrentSecantKernel
+public import proofs.TypeIIL.SourceCyclicRowAssembly
+public import proofs.TypeIIL.SourceForkSchurMargin
+
+@[expose] public section
 
 namespace TypeIIL
 

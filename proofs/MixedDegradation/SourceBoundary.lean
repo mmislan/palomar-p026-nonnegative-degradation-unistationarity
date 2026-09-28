@@ -1,6 +1,10 @@
-import proofs.MixedDegradation.SourceJacobian
-import proofs.MixedDegradation.SourceInvertible
-import proofs.MixedDegradation.StationaryBoundary
+module
+
+public import proofs.MixedDegradation.SourceJacobian
+public import proofs.MixedDegradation.SourceInvertible
+public import proofs.MixedDegradation.StationaryBoundary
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL

@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceBackFirstWeakClosure
+module
+
+public import proofs.TypeIIL.SourceBackFirstWeakClosure
+
+@[expose] public section
 
 namespace MixedDegradation
 open TypeIIL

@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceCurrentMatrix
+module
+
+public import proofs.TypeIIL.SourceCurrentMatrix
+
+@[expose] public section
 
 namespace TypeIIL
 

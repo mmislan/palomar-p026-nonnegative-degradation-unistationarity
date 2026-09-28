@@ -1,4 +1,8 @@
-import proofs.TypeIIL.SourceGapBudget
+module
+
+public import proofs.TypeIIL.SourceGapBudget
+
+@[expose] public section
 
 namespace TypeIIL
 
