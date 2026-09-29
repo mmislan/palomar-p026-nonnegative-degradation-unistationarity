@@ -42,10 +42,10 @@ open TypeII3
 open scoped BigOperators
 
 def finitePathPrev {m : ℕ} (i : Fin (m + 1)) (h : 0 < i.val) : Fin (m + 1) :=
-  ⟨i.val - 1, by omega⟩
+  ⟨i.val - 1, Nat.lt_trans (Nat.sub_lt h Nat.zero_lt_one) i.isLt⟩
 
 def finitePathNext {m : ℕ} (i : Fin (m + 1)) (h : i.val < m) : Fin (m + 1) :=
-  ⟨i.val + 1, by omega⟩
+  ⟨i.val + 1, Nat.succ_lt_succ h⟩
 
 structure SourceGapEmbedding {n : ℕ}
     (next : Fin n ≃ Fin n) (back : Fin n → Option (Fin n)) (m : ℕ) where
